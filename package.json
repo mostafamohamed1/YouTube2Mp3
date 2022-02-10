@@ -1,0 +1,18 @@
+{
+	"name": "ConvertYouTubeVideoToMP3",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon app.js",
+		"parcel": "parcel ./public/js/main.js --dist-dir ./public/js/dist"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.25.0",
+		"express": "^4.17.2",
+		"pug": "^3.0.2",
+		"youtube-mp3-downloader": "^0.7.10"
+	}
+}
